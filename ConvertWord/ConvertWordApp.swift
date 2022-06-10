@@ -13,8 +13,11 @@ struct ConvertWordApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            LaunchView()
+                .frame(width: 400, height: 400, alignment: .center)
+                .padding() 
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

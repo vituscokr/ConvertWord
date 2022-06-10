@@ -16,6 +16,7 @@
 		7368C88E2853B8BF009D758B /* ConvertWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C88D2853B8BF009D758B /* ConvertWordTests.swift */; };
 		7368C8982853B8BF009D758B /* ConvertWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C8972853B8BF009D758B /* ConvertWordUITests.swift */; };
 		7368C89A2853B8BF009D758B /* ConvertWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C8992853B8BF009D758B /* ConvertWordUITestsLaunchTests.swift */; };
+		7368C8A72853B952009D758B /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C8A62853B952009D758B /* LaunchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7368C8932853B8BF009D758B /* ConvertWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7368C8972853B8BF009D758B /* ConvertWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertWordUITests.swift; sourceTree = "<group>"; };
 		7368C8992853B8BF009D758B /* ConvertWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7368C8A62853B952009D758B /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7368C8842853B8BE009D758B /* ConvertWord.entitlements */,
 				7368C8812853B8BE009D758B /* ConvertWord.xcdatamodeld */,
 				7368C87C2853B8BE009D758B /* Preview Content */,
+				7368C8A62853B952009D758B /* LaunchView.swift */,
 			);
 			path = ConvertWord;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7368C8802853B8BE009D758B /* Persistence.swift in Sources */,
+				7368C8A72853B952009D758B /* LaunchView.swift in Sources */,
 				7368C8832853B8BE009D758B /* ConvertWord.xcdatamodeld in Sources */,
 				7368C8792853B8BE009D758B /* ContentView.swift in Sources */,
 				7368C8772853B8BE009D758B /* ConvertWordApp.swift in Sources */,
