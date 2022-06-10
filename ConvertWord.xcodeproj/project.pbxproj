@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7368C8772853B8BE009D758B /* ConvertWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C8762853B8BE009D758B /* ConvertWordApp.swift */; };
+		7368C8792853B8BE009D758B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C8782853B8BE009D758B /* ContentView.swift */; };
+		7368C87B2853B8BE009D758B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7368C87A2853B8BE009D758B /* Assets.xcassets */; };
+		7368C87E2853B8BE009D758B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7368C87D2853B8BE009D758B /* Preview Assets.xcassets */; };
+		7368C8802853B8BE009D758B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C87F2853B8BE009D758B /* Persistence.swift */; };
+		7368C8832853B8BE009D758B /* ConvertWord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7368C8812853B8BE009D758B /* ConvertWord.xcdatamodeld */; };
+		7368C88E2853B8BF009D758B /* ConvertWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C88D2853B8BF009D758B /* ConvertWordTests.swift */; };
+		7368C8982853B8BF009D758B /* ConvertWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C8972853B8BF009D758B /* ConvertWordUITests.swift */; };
+		7368C89A2853B8BF009D758B /* ConvertWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7368C8992853B8BF009D758B /* ConvertWordUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7368C88A2853B8BF009D758B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7368C86B2853B8BE009D758B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7368C8722853B8BE009D758B;
+			remoteInfo = ConvertWord;
+		};
+		7368C8942853B8BF009D758B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7368C86B2853B8BE009D758B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7368C8722853B8BE009D758B;
+			remoteInfo = ConvertWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7368C8732853B8BE009D758B /* ConvertWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7368C8762853B8BE009D758B /* ConvertWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertWordApp.swift; sourceTree = "<group>"; };
+		7368C8782853B8BE009D758B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7368C87A2853B8BE009D758B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7368C87D2853B8BE009D758B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7368C87F2853B8BE009D758B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7368C8822853B8BE009D758B /* ConvertWord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConvertWord.xcdatamodel; sourceTree = "<group>"; };
+		7368C8842853B8BE009D758B /* ConvertWord.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConvertWord.entitlements; sourceTree = "<group>"; };
+		7368C8892853B8BF009D758B /* ConvertWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7368C88D2853B8BF009D758B /* ConvertWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertWordTests.swift; sourceTree = "<group>"; };
+		7368C8932853B8BF009D758B /* ConvertWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7368C8972853B8BF009D758B /* ConvertWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertWordUITests.swift; sourceTree = "<group>"; };
+		7368C8992853B8BF009D758B /* ConvertWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7368C8702853B8BE009D758B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368C8862853B8BF009D758B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368C8902853B8BF009D758B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7368C86A2853B8BE009D758B = {
+			isa = PBXGroup;
+			children = (
+				7368C8752853B8BE009D758B /* ConvertWord */,
+				7368C88C2853B8BF009D758B /* ConvertWordTests */,
+				7368C8962853B8BF009D758B /* ConvertWordUITests */,
+				7368C8742853B8BE009D758B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7368C8742853B8BE009D758B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7368C8732853B8BE009D758B /* ConvertWord.app */,
+				7368C8892853B8BF009D758B /* ConvertWordTests.xctest */,
+				7368C8932853B8BF009D758B /* ConvertWordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7368C8752853B8BE009D758B /* ConvertWord */ = {
+			isa = PBXGroup;
+			children = (
+				7368C8762853B8BE009D758B /* ConvertWordApp.swift */,
+				7368C8782853B8BE009D758B /* ContentView.swift */,
+				7368C87A2853B8BE009D758B /* Assets.xcassets */,
+				7368C87F2853B8BE009D758B /* Persistence.swift */,
+				7368C8842853B8BE009D758B /* ConvertWord.entitlements */,
+				7368C8812853B8BE009D758B /* ConvertWord.xcdatamodeld */,
+				7368C87C2853B8BE009D758B /* Preview Content */,
+			);
+			path = ConvertWord;
+			sourceTree = "<group>";
+		};
+		7368C87C2853B8BE009D758B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7368C87D2853B8BE009D758B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7368C88C2853B8BF009D758B /* ConvertWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				7368C88D2853B8BF009D758B /* ConvertWordTests.swift */,
+			);
+			path = ConvertWordTests;
+			sourceTree = "<group>";
+		};
+		7368C8962853B8BF009D758B /* ConvertWordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7368C8972853B8BF009D758B /* ConvertWordUITests.swift */,
+				7368C8992853B8BF009D758B /* ConvertWordUITestsLaunchTests.swift */,
+			);
+			path = ConvertWordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7368C8722853B8BE009D758B /* ConvertWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7368C89D2853B8BF009D758B /* Build configuration list for PBXNativeTarget "ConvertWord" */;
+			buildPhases = (
+				7368C86F2853B8BE009D758B /* Sources */,
+				7368C8702853B8BE009D758B /* Frameworks */,
+				7368C8712853B8BE009D758B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvertWord;
+			productName = ConvertWord;
+			productReference = 7368C8732853B8BE009D758B /* ConvertWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7368C8882853B8BF009D758B /* ConvertWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7368C8A02853B8BF009D758B /* Build configuration list for PBXNativeTarget "ConvertWordTests" */;
+			buildPhases = (
+				7368C8852853B8BF009D758B /* Sources */,
+				7368C8862853B8BF009D758B /* Frameworks */,
+				7368C8872853B8BF009D758B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7368C88B2853B8BF009D758B /* PBXTargetDependency */,
+			);
+			name = ConvertWordTests;
+			productName = ConvertWordTests;
+			productReference = 7368C8892853B8BF009D758B /* ConvertWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7368C8922853B8BF009D758B /* ConvertWordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7368C8A32853B8BF009D758B /* Build configuration list for PBXNativeTarget "ConvertWordUITests" */;
+			buildPhases = (
+				7368C88F2853B8BF009D758B /* Sources */,
+				7368C8902853B8BF009D758B /* Frameworks */,
+				7368C8912853B8BF009D758B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7368C8952853B8BF009D758B /* PBXTargetDependency */,
+			);
+			name = ConvertWordUITests;
+			productName = ConvertWordUITests;
+			productReference = 7368C8932853B8BF009D758B /* ConvertWordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7368C86B2853B8BE009D758B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7368C8722853B8BE009D758B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7368C8882853B8BF009D758B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7368C8722853B8BE009D758B;
+					};
+					7368C8922853B8BF009D758B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7368C8722853B8BE009D758B;
+					};
+				};
+			};
+			buildConfigurationList = 7368C86E2853B8BE009D758B /* Build configuration list for PBXProject "ConvertWord" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7368C86A2853B8BE009D758B;
+			productRefGroup = 7368C8742853B8BE009D758B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7368C8722853B8BE009D758B /* ConvertWord */,
+				7368C8882853B8BF009D758B /* ConvertWordTests */,
+				7368C8922853B8BF009D758B /* ConvertWordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7368C8712853B8BE009D758B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7368C87E2853B8BE009D758B /* Preview Assets.xcassets in Resources */,
+				7368C87B2853B8BE009D758B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368C8872853B8BF009D758B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368C8912853B8BF009D758B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7368C86F2853B8BE009D758B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7368C8802853B8BE009D758B /* Persistence.swift in Sources */,
+				7368C8832853B8BE009D758B /* ConvertWord.xcdatamodeld in Sources */,
+				7368C8792853B8BE009D758B /* ContentView.swift in Sources */,
+				7368C8772853B8BE009D758B /* ConvertWordApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368C8852853B8BF009D758B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7368C88E2853B8BF009D758B /* ConvertWordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368C88F2853B8BF009D758B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7368C89A2853B8BF009D758B /* ConvertWordUITestsLaunchTests.swift in Sources */,
+				7368C8982853B8BF009D758B /* ConvertWordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7368C88B2853B8BF009D758B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7368C8722853B8BE009D758B /* ConvertWord */;
+			targetProxy = 7368C88A2853B8BF009D758B /* PBXContainerItemProxy */;
+		};
+		7368C8952853B8BF009D758B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7368C8722853B8BE009D758B /* ConvertWord */;
+			targetProxy = 7368C8942853B8BF009D758B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7368C89B2853B8BF009D758B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7368C89C2853B8BF009D758B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7368C89E2853B8BF009D758B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ConvertWord/ConvertWord.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConvertWord/Preview Content\"";
+				DEVELOPMENT_TEAM = HA4DY673VG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.vitus.ConvertWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7368C89F2853B8BF009D758B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ConvertWord/ConvertWord.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConvertWord/Preview Content\"";
+				DEVELOPMENT_TEAM = HA4DY673VG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.vitus.ConvertWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7368C8A12853B8BF009D758B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HA4DY673VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.vitus.ConvertWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertWord.app/Contents/MacOS/ConvertWord";
+			};
+			name = Debug;
+		};
+		7368C8A22853B8BF009D758B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HA4DY673VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.vitus.ConvertWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertWord.app/Contents/MacOS/ConvertWord";
+			};
+			name = Release;
+		};
+		7368C8A42853B8BF009D758B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HA4DY673VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.vitus.ConvertWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ConvertWord;
+			};
+			name = Debug;
+		};
+		7368C8A52853B8BF009D758B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HA4DY673VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.vitus.ConvertWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ConvertWord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7368C86E2853B8BE009D758B /* Build configuration list for PBXProject "ConvertWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7368C89B2853B8BF009D758B /* Debug */,
+				7368C89C2853B8BF009D758B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7368C89D2853B8BF009D758B /* Build configuration list for PBXNativeTarget "ConvertWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7368C89E2853B8BF009D758B /* Debug */,
+				7368C89F2853B8BF009D758B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7368C8A02853B8BF009D758B /* Build configuration list for PBXNativeTarget "ConvertWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7368C8A12853B8BF009D758B /* Debug */,
+				7368C8A22853B8BF009D758B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7368C8A32853B8BF009D758B /* Build configuration list for PBXNativeTarget "ConvertWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7368C8A42853B8BF009D758B /* Debug */,
+				7368C8A52853B8BF009D758B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7368C8812853B8BE009D758B /* ConvertWord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7368C8822853B8BE009D758B /* ConvertWord.xcdatamodel */,
+			);
+			currentVersion = 7368C8822853B8BE009D758B /* ConvertWord.xcdatamodel */;
+			path = ConvertWord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7368C86B2853B8BE009D758B /* Project object */;
+}
